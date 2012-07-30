@@ -1,0 +1,12 @@
+{
+    "name": "plivode",
+    "version": "0.0.2dev",
+    "description": "A lightweight scalable Plivo application framework.",
+    "author": "Joe Lynch <yhf@ncsc.io>",
+    "main": "./lib/main",
+    "dependencies": {
+        "express": "2.5.x",
+        "compose": "0.1.x"
+    },
+    "engine": "node >= 0.8.x"
+}
