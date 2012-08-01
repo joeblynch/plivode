@@ -1,17 +1,18 @@
 {
     "name": "plivode",
-    "version": "0.1.0dev",
+    "version": "0.1.1dev",
     "description": "A lightweight scalable Plivo application framework.",
     "author": "Joe Lynch <yhf@ncsc.io>",
     "repository": {
         "type": "git",
         "url": "git://github.com/joeblynch/plivode.git"
     },
-    "main": "./lib/main",
+    "main": "./lib",
     "dependencies": {
         "express": "2.5.x",
         "compose": "0.1.x",
-        "base62": "0.1.x"
+        "base62": "0.1.x",
+        "underscore": "1.3.x"
     },
     "engine": "node >= 0.8.x"
 }
