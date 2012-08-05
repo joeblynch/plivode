@@ -44,7 +44,7 @@ Your Plivode app will raise events when you need to respond to a phone call or s
  - `hangup` - raised when a call is ended.
 
 
-## Example: Parrot
+### Example: Parrot
 
 **See it in action! Send a sms to `(949) 484-8425`. Within a few seconds you'll get a call speaking your message.**
 
@@ -86,7 +86,7 @@ be the event name, and the remaining fields can be parameters to pass to the nex
 pass along parameters you can simply pass the event name as a string.
 
 
-## Example: Guess the Number
+### Example: Guess the Number
 
 **See it in action! Call `(949) 484-8425`.**
 
