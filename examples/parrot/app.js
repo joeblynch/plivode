@@ -7,11 +7,11 @@ new plivode.App({
     rootUrl: '[the root URL this app is accessible by Plivo]'
 })
 .on('message', function(params, response) {
-    // When a sms is received, make an outbound call to the number that sent sms,
+    // When a sms is received, make an outbound call to the number that sent the sms,
     // passing the text of the sms to the "parrot" action.
-    this.Call.outbound('19494848425', params.From, { caller_name: '[kenneth]', machine_detection: 'true', answer_url: ['parrot', params.Text] });
+    this.Call.outbound('[your Plivo phone number]', params.From, ['parrot', params.Text]);
 
-    // Send a blank response back, so Plivo knows we processed and not to resend.
+    // Send a blank response back, so Plivo knows we processed the message and not to resend it.
     response.send();
 })
 .on('parrot/:message', function(params, response) {
