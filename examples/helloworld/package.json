@@ -1,0 +1,10 @@
+{
+    "name": "plivode-example-helloworld",
+    "version": "1.0",
+    "author": "Joe Lynch <yhf@ncsc.io>",
+    "main": "app.js",
+    "dependencies": {
+        "plivode": "0.2.x"
+    },
+    "engine": "node >= 0.8.x"
+}
