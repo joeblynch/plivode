@@ -196,4 +196,4 @@ new plivode.App({
 
 ## Documentation
 
-More documentation is on the way! For now, partial documentation is [available here](http://joeblynch.github.com/plivode).
+More documentation is on the way! For now, partial documentation is [available here](http://plivode.ncsc.io).
