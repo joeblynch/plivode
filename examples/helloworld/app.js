@@ -1,3 +1,8 @@
+/* Copyright (c) 2012 Joe Lynch <yhf@ncsc.io>, http://plivode.ncsc.io/
+ * Licensed under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
 var plivode = require('plivode');
 
 new plivode.App({
