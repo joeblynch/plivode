@@ -1,6 +1,6 @@
 {
   "name": "plivode",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A lightweight scalable Plivo application framework.",
   "author": "Joe Lynch <yhf@ncsc.io>",
   "repository": {
